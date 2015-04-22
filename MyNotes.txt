@@ -1,0 +1,27 @@
+31.01.2015
+1. The nand2tetris project is interesting in COP point of view. But it may be used as a separate course base.
+2. The project was implemented using JDK1.4 (or newer, but without usage of generics, enums, etc.).
+3. The are some obvious java-programming disadvantages: a few javadocs, package names are capitalized
+   (that complicates reading - mixing outer classes names with package names), etc.
+4. TODO: find out the usage of topological graph nodes order (can it be used to implement a kind of inheritance?)...
+   (there should be a way to "add/subtract" one graph to/from another so that it might be used for composed
+    components implementation inheritance).
+5. TODO: find out the clock tick() and tock() methods usage (the whole state updating strategy)...
+6. What is Controller and how it relates with Simulator (in the project architecture)?
+7. There are Tutorials on how to use the tools supplied. There are Lectures on what is supported by the tools.
+   But there are NO information (i.e. documentation) on HOW the tools are implemented; source code reading is needed!
+
+08.03.2015
+1. Now, almost all analogous (non discrete) devices are being replaced with digital devices of the same purposes:
+  - phones;
+  - TV sets;
+  - radio/players;
+  - photo cameras, etc.
+  But analogous computers are not involved directly (explicitly) in that process...
+  Formerly, we had two kinds of computers - analogous calculating machines and digital calculating machines.
+  The functionality of the first can be implemented by the second - as well.
+2. But analogous machines are inherently component based:
+    all the programming for them is to be done by components connections.
+3. Human brains are of analogous nature - in a sense that there are no digits inside...
+    (propagating signals of different physical nature).
+
